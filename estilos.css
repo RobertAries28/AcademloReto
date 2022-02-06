@@ -5,8 +5,12 @@
 body{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     box-sizing: border-box;
   
+=======
+
+>>>>>>> 5502a5efe87c7f7e6bd3e7d7cd4a1a1f675ed889
 }
 /*ESTILOS JOAN KENEDI MAYO */
 header{
@@ -138,6 +142,74 @@ text-align: left;
 
 /*FIN ESTILOS JOAN KENEDI MAYO*/
 
+/* Juan Camilo Echeverri Florez */
+
+#grow-section{
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem 1rem;
+  
+}
+
+#grow-section>div{
+   text-align: center;
+   margin-top: 1.5rem;
+}
+
+
+#grow-section img{
+   width: 75%;
+   max-width: 320px;
+}
+
+#grow-section h2{
+   font-size: 1.5rem;
+   margin-bottom: 1rem
+}
+
+@media screen and (min-width: 768px) {
+   #grow-section{
+      flex-direction: row;
+   }
+
+}
+
+
+#flowing-section{
+   max-width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1.5rem 1rem;
+  
+}
+
+#flowing-section>div{
+   text-align: center;
+   margin-top: 1.5rem;
+}
+
+
+#flowing-section img{
+   width: 75%;
+   max-width: 320px;
+}
+
+#flowing-section h2{
+   font-size: 1.5rem;
+   margin-bottom: 1rem
+}
+
+@media screen and (min-width: 768px) {
+   #flowing-section{
+      flex-direction: row;
+   }
+
+}
 
 /* ROBERT ESCALANTE GOMEZ */
 
